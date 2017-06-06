@@ -12,8 +12,21 @@
         android:visibility="gone"
         opencv:show_fps="true"
         opencv:camera_id="any"
-        android:id="@+id/java_camera_view"
-/>
+        android:id="@+id/java_camera_view" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="take"
+        android:layout_alignParentRight="true"
+        android:id="@+id/opencv_takephoto_button"/>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cancel"
+        android:id="@+id/opencv_photocancel_button"
+        android:layout_below="@+id/opencv_takephoto_button"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="46dp" />
 
 </RelativeLayout>
